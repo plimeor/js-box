@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "files": [
     "tsconfig.json"
-  ]
+  ],
+  "repository": {
+    "url": "https://github.com/plimeor/js-box",
+    "type": "git"
+  }
 }
