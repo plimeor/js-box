@@ -1,0 +1,32 @@
+lockfileVersion: 5.4
+
+overrides:
+  typescript: next
+
+importers:
+
+  .:
+    specifiers:
+      '@types/node': ^17.0.35
+      typescript: next
+    devDependencies:
+      '@types/node': 17.0.35
+      typescript: 4.8.0-dev.20220525
+
+  packages/event-emitter:
+    specifiers: {}
+
+  packages/ts-config:
+    specifiers: {}
+
+packages:
+
+  /@types/node/17.0.35:
+    resolution: {integrity: sha512-vu1SrqBjbbZ3J6vwY17jBs8Sr/BKA+/a/WtjRG+whKg1iuLFOosq872EXS0eXWILdO36DHQQeku/ZcL6hz2fpg==}
+    dev: true
+
+  /typescript/4.8.0-dev.20220525:
+    resolution: {integrity: sha512-pNd3/XAybx4HcvSvw0IeqwDEVz8tqFDpaPYmKLqs8Y1T1OZ+wYbDDQ/yiu/9+YV1WuWIhM1w5ZfMvuMqciU6xg==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
