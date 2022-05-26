@@ -1,0 +1,7 @@
+{
+  "name": "@js-box/ts-config",
+  "version": "1.0.0",
+  "files": [
+    "tsconfig.json"
+  ]
+}
