@@ -1,16 +1,11 @@
 {
   "private": true,
-  "pnpm": {
-    "overrides": {
-      "typescript": "next"
-    }
-  },
   "scripts": {
     "build": "pnpm --filter './packages/*' build",
     "prepublish": "pnpm build",
-    "publish": "pnpm publish --no-git-checks --dry-run --filter './packages/*' --access public --publish-branch main --report-summary"
+    "publish": "pnpm publish --filter './packages/*' --access public --publish-branch main --report-summary"
   },
   "devDependencies": {
-    "typescript": "*"
+    "typescript": "next"
   }
 }
