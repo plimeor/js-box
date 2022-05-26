@@ -1,8 +1,7 @@
 {
   "name": "@js-box/event-emitter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
-  "type": "module",
   "files": [
     "dist"
   ],
