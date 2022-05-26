@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "pnpm": {
+    "overrides": {
+      "typescript": "next"
+    }
+  },
+  "scripts": {
+    "build": "pnpm --filter './packages/*' build"
+  },
+  "devDependencies": {
+    "typescript": "*"
+  }
+}
