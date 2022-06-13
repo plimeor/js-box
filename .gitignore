@@ -105,3 +105,4 @@ dist
 
 # Custom
 pnpm-publish-summary.json
+.DS_Store

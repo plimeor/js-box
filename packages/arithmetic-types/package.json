@@ -1,0 +1,16 @@
+{
+  "name": "@js-box/arithmetic-types",
+  "main": "dist/index.js",
+  "version": "1.0.1",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "url": "https://github.com/plimeor/js-box",
+    "type": "git"
+  }
+}
